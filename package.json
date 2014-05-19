@@ -1,0 +1,38 @@
+{
+  "name": "pagemeta",
+  "version": "0.0.1",
+  "description": "View meta data for a page",
+  "author": {
+    "name": "Geir Gåsodden",
+    "email": "geir.gasodden@pythonia.no",
+    "url": "https://github.com/zrrrzzt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/zrrrzzt/pagemeta.git"
+  },
+  "bugs": {
+    "url": "http://github.com/zrrrzzt/pagemeta/issues"
+  },
+  "bin": {
+    "pagemeta": "cli.js"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec test/*.js"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "dependencies": {
+    "cheerio": "^0.16.0",
+    "request": "^2.35.0",
+    "valid-url": "^1.0.9"
+  },
+  "devDependencies": {
+    "mocha": "^1.19.0"
+  }
+}
