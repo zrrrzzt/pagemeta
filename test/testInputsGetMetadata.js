@@ -1,4 +1,4 @@
-var getMetadata = require('../lib/getmetadata')
+var getMetadata = require('../lib/getMetadata')
   , assert = require('assert')
   ;
 

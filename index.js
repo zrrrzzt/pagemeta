@@ -1,6 +1,6 @@
 var request = require('request')
   , validUrl = require('valid-url')
-  , getMetadata = require('./lib/getmetadata')
+  , getMetadata = require('./lib/getMetadata')
   ;
 
 function getPagemeta(uri, callback){

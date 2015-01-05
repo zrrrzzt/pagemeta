@@ -1,6 +1,6 @@
 var fs = require('fs')
   , assert = require('assert')
-  , getMetadata = require('../lib/getmetadata')
+  , getMetadata = require('../lib/getMetadata')
   , inputData = fs.readFileSync('test/testpage.html').toString()
   ;
 
