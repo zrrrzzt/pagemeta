@@ -33,8 +33,7 @@ function getMetadata(uri, callback){
 
 }
 
-
-module.exports = function(uri, callback){
+function getPagemeta(uri, callback){
 
   if(!uri){
     return callback(new Error('Missing required param'), null);
@@ -54,3 +53,5 @@ module.exports = function(uri, callback){
   });
 
 };
+
+module.exports = getPagemeta;
