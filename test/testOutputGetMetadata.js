@@ -1,8 +1,9 @@
-var fs = require('fs')
-  , assert = require('assert')
-  , getMetadata = require('../lib/getMetadata')
-  , inputData = fs.readFileSync('test/testpage.html').toString()
-  ;
+'use strict';
+
+var fs = require('fs');
+var assert = require('assert');
+var getMetadata = require('../lib/getMetadata');
+var inputData = fs.readFileSync('test/testpage.html').toString();
 
 describe('getMetadata - output', function(){
 
