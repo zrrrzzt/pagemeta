@@ -1,6 +1,7 @@
-var getMetadata = require('../lib/getMetadata')
-  , assert = require('assert')
-  ;
+'use strict';
+
+var getMetadata = require('../lib/getMetadata');
+var assert = require('assert');
 
 describe('getMetadata - inputs', function(){
 
@@ -10,13 +11,17 @@ describe('getMetadata - inputs', function(){
 
     getMetadata(inputData, function(err, data){
       assert.throws(function(){
-          if(err) throw err;
+          if(err) {
+            throw err;
+          } else {
+            console.log(data);
+          }
         }, function(err){
           if((err instanceof Error) && /Missing required input: data/.test(err)){
-            return true
+            return true;
           }
         },
-        "Unexpected error"
+        'Unexpected error'
       );
       done();
     });
