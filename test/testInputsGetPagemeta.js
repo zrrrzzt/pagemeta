@@ -1,6 +1,7 @@
-var pagemeta = require('../index')
-  , assert = require('assert')
-  ;
+'use strict';
+
+var pagemeta = require('../index');
+var assert = require('assert');
 
 describe('pagemeta - inputs', function(){
 
@@ -10,13 +11,17 @@ describe('pagemeta - inputs', function(){
 
     pagemeta(uri, function(err, data){
       assert.throws(function(){
-          if(err) throw err;
+          if(err) {
+            throw err;
+          } else {
+            console.log(data);
+          }
         }, function(err){
           if((err instanceof Error) && /Missing required param/.test(err)){
-            return true
+            return true;
           }
         },
-        "Unexpected error"
+        'Unexpected error'
       );
       done();
     });
@@ -29,13 +34,17 @@ describe('pagemeta - inputs', function(){
 
     pagemeta(uri, function(err, data){
       assert.throws(function(){
-          if(err) throw err;
+          if(err) {
+            throw err;
+          } else {
+            console.log(data);
+          }
         }, function(err){
           if((err instanceof Error) && /Invalid uri/.test(err)){
-            return true
+            return true;
           }
         },
-        "Unexpected error"
+        'Unexpected error'
       );
       done();
     });
