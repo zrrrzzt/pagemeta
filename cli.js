@@ -1,10 +1,9 @@
 #!/usr/bin/env node
 'use strict';
 
-var pagemeta = require('./index')
-  , pkg = require('./package.json')
-  , uri = process.argv[2]
-  ;
+var pagemeta = require('./index');
+var pkg = require('./package.json');
+var uri = process.argv[2];
 
 function printHelp() {
   console.log(pkg.description);
