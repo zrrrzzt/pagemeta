@@ -27,12 +27,13 @@ $ npm test
 Pass the uri for the page you want to view.
 
 ```javascript
-var pmd = require('pagemeta')
-  , uri = 'http://www.google.com' 
-  ;
+var pmd = require('pagemeta');
+var uri = 'http://www.google.com';
 
 pmd(uri, function(err, data){
-  if(err)throw err;
+  if(err){
+    throw err;
+  }
   console.log(data);
 });
 ```
