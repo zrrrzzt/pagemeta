@@ -2,7 +2,7 @@
 
 var request = require('request');
 var validUrl = require('valid-url');
-var getMetadata = require('./lib/getMetadata');
+var getMetadata = require('./lib/getmetadata');
 
 function getPagemeta(uri, callback){
 

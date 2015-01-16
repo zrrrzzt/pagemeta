@@ -2,7 +2,7 @@
 
 var fs = require('fs');
 var assert = require('assert');
-var getMetadata = require('../lib/getMetadata');
+var getMetadata = require('../lib/getmetadata');
 var inputData = fs.readFileSync('test/testpage.html').toString();
 
 describe('getMetadata - output', function(){
