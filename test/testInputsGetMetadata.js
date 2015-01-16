@@ -1,6 +1,6 @@
 'use strict';
 
-var getMetadata = require('../lib/getmetadata');
+var getMetadata = require('../lib/getMetadata');
 var assert = require('assert');
 
 describe('getMetadata - inputs', function(){
