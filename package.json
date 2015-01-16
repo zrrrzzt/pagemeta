@@ -1,6 +1,6 @@
 {
   "name": "pagemeta",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "View meta data for a page",
   "author": {
     "name": "Geir Gåsodden",
@@ -23,10 +23,6 @@
   "scripts": {
     "test": "mocha --reporter spec test/*.js"
   },
-  "files": [
-    "index.js",
-    "cli.js"
-  ],
   "dependencies": {
     "cheerio": "^0.18.0",
     "request": "^2.51.0",
