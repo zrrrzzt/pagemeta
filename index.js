@@ -1,7 +1,8 @@
-var request = require('request')
-  , validUrl = require('valid-url')
-  , getMetadata = require('./lib/getMetadata')
-  ;
+'use strict';
+
+var request = require('request');
+var validUrl = require('valid-url');
+var getMetadata = require('./lib/getMetadata');
 
 function getPagemeta(uri, callback){
 
@@ -28,6 +29,6 @@ function getPagemeta(uri, callback){
 
   });
 
-};
+}
 
 module.exports = getPagemeta;
