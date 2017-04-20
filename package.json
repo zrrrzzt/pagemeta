@@ -1,6 +1,6 @@
 {
   "name": "pagemeta",
-  "version": "1.0.4",
+  "version": "2.0.0",
   "description": "View meta data for a page",
   "author": {
     "name": "Geir Gåsodden",
@@ -9,16 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "http://github.com/zrrrzzt/pagemeta.git"
+    "url": "https://github.com/zrrrzzt/pagemeta.git"
   },
   "bugs": {
-    "url": "http://github.com/zrrrzzt/pagemeta/issues"
+    "url": "https://github.com/zrrrzzt/pagemeta/issues"
   },
+  "homepage": "https://github.com/zrrrzzt/pagemeta",
   "bin": {
     "pagemeta": "cli.js"
   },
   "engines": {
-    "node": ">=0.10.0"
+    "node": ">=4.8.2"
   },
   "scripts": {
     "test": "mocha --reporter spec test/*.js"
