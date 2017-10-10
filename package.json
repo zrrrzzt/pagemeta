@@ -30,6 +30,6 @@
     "valid-url": "^1.0.9"
   },
   "devDependencies": {
-    "mocha": "^3.1.2"
+    "mocha": "^4.0.1"
   }
 }
