@@ -25,11 +25,11 @@
     "test": "mocha --reporter spec test/*.js"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.2",
-    "request": "^2.87.0",
-    "valid-url": "^1.0.9"
+    "cheerio": "1.0.0-rc.2",
+    "request": "2.87.0",
+    "valid-url": "1.0.9"
   },
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "mocha": "5.2.0"
   }
 }
